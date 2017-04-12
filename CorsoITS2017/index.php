@@ -1,5 +1,7 @@
 <?php include 'inc/config.php' ?>
 
+
+
 <div id="header">
 	<?php include 'header.php' ?>
 </div>

@@ -1,5 +1,8 @@
-<?php 
 
+
+<?php 
+//error_reporting(E_ALL);
+error_reporting(0);
 
 /*	$saluto = "ciao";
 
@@ -17,8 +20,6 @@
 	switch($_GET['pagina']){
 
 		 case "uno":
-		 	//creaHeader('ciao');
-		 	echo calcolaValori(12,0, 'divisione');
 			//phpinfo();
 			echo $_SERVER['SCRIPT_FILENAME'];
 			echo '<br>';
