@@ -1,0 +1,10 @@
+<?php
+$mysqli_connect = new mysqli("localhost","root","ITS2017")
+if (mysqli_connect_errno()) {
+  printf("ops,abbiamo problemi di connessione:%s",mysqli_connect_errno());
+  exit();
+}
+
+
+
+ ?>
