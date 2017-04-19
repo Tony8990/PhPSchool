@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 //include 'Automobile.php';
 
@@ -9,9 +9,9 @@ $colori = ["Rosso", "Verde", "Blu", "Nero"];
 
 
 $concessionario= array();
-//Genero oggetti di tipo Automobile
-for ($i=0; $i < 100; $i++) {
-
+//genero 100 oggetti di tipo automobile
+for ($i=0; $i < 100; $i++) { 
+	
 	$marca = $marche[array_rand($marche)];
 	$num= array_search($marca, $marche);
 	$modello = $modelli[$num][array_rand($modelli[$num])];

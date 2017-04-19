@@ -1,10 +1,14 @@
-
-<?php
+<?php 
+  //includo la classe auutomobile
     include 'Automobile.php';
-    // Genero 100 oggetti di tipo auto
+
+  //genero 100 oggetti di tipo automobile
+
+//    include 'main.php';
     //include 'auto100.api.php';
     include 'auto200.api.php';
-    include 'header.php'
+    //include la testata di pagina
+    include 'header.php' 
 
 ?>
 
@@ -13,7 +17,7 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Concessionario auto da mauro &amp; rosa</h1>
-
+ 
      </div>
     <table class="table table-hover">
           <tr>
@@ -24,7 +28,7 @@
           </tr>
 
       <?php foreach ($concessionario as $auto) : ?>
-
+        
           <tr>
             <td><?= $auto->marca ?></td>
             <td><?= $auto->modello ?></td>
